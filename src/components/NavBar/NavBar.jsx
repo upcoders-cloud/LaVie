@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <header className="border-b border-border bg-surface/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
-        <div className="text-lg font-semibold tracking-tight text-text">LaVie</div>
+        <div className="text-lg font-semibold tracking-tight text-text">LaVie (Logo)</div>
         <nav className="flex gap-2 text-sm font-medium text-muted">
           {navItems.map(({ to, label, end }) => (
             <NavLink

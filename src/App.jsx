@@ -6,7 +6,6 @@ import Aria from './pages/Aria.jsx'
 import Careers from './pages/Careers.jsx'
 import Contact from './pages/Contact.jsx'
 import NotFound from './pages/NotFound.jsx'
-import './App.css'
 
 function App() {
   return (

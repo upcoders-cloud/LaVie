@@ -1,4 +1,5 @@
 import NavBar from '../components/NavBar/NavBar.jsx'
+import Footer from '../components/Footer/Footer.jsx'
 
 export default function RootLayout({ children }) {
   return (
@@ -9,11 +10,7 @@ export default function RootLayout({ children }) {
         {children}
       </main>
 
-      <footer className="border-t border-border">
-        <div className="mx-auto w-full max-w-6xl px-4 py-6 text-sm text-muted">
-          © {new Date().getFullYear()} LaVie — miejsce na stopkę i linki informacyjne.
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }
