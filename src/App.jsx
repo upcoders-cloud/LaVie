@@ -5,6 +5,7 @@ import Services from './pages/Services.jsx'
 import Aria from './pages/Aria.jsx'
 import Careers from './pages/Careers.jsx'
 import Contact from './pages/Contact.jsx'
+import NotFound from './pages/NotFound.jsx'
 import './App.css'
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         <Route path="/aria" element={<Aria />} />
         <Route path="/praca" element={<Careers />} />
         <Route path="/kontakt" element={<Contact />} />
-        <Route path="*" element={<Home />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </RootLayout>
   )
