@@ -1,3 +1,5 @@
+import { StackedCards } from 'components/StackedCards/StackedCards.jsx'
+
 const modalities = [
   {
     name: 'RTG (rentgenowskie)',
