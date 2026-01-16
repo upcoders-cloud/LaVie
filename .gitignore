@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 WARP.md
+AGENTS.md
 
 # Editor directories and files
 .vscode/*
